@@ -7,7 +7,6 @@ function sendNotification(){
         "notification"=>array(
             "body"=>$_REQUEST['message'],
             "title"=>$_REQUEST['title'],
-            "icon"=>$_REQUEST['icon'],
             "click_action"=>"https://google.com"
         )
     );
