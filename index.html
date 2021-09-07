@@ -41,7 +41,7 @@
 
     messaging.onMessage(function (payload) {
         console.log(payload);
-        /*const notificationOption={
+        const notificationOption={
             body:payload.notification.body,
             icon:payload.notification.icon
         };
@@ -54,7 +54,7 @@
                 window.open(payload.notification.click_action,'_blank');
                 notification.close();
             }
-        }*/
+        }
 
     });
     messaging.onTokenRefresh(function () {
